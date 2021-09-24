@@ -9,7 +9,7 @@ Step : Ketik `src port 80` pada filter di wireshark.
 <img src="Img/11_1.PNG">
 <img src="Img/11_2.PNG">
 
-Untuk hasil dari `port 80` yaitu kosong dikarenakan pada port tersebut tidak terjadinya protokol `http` yang berjalan.
+Catatan : untuk hasil dari `port 80` yaitu berupa kosongan dikarenakan pada port tersebut tidak terjadinya protokol `http` yang berjalan.
 
 ## Soal 12
 Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang mengandung "port 21!".<br><br>
