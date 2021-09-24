@@ -58,24 +58,22 @@ Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. <b
 Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". <br>
 Simpan dan buka file tersebut!
 
- - Maka kita memerlukan filter untuk menemukan file secret.zip tersebut dengan memasukkan filter sebagai berikut
+ 1. Maka kita memerlukan filter untuk menemukan file secret.zip tersebut dengan memasukkan filter sebagai berikut
 ```
  ftp-data.command == "STOR secret.zip"
 ```
 <img src="Img/9_1.png">
 
-  - Lalu klik kanan menuju `Follow lalu TCP Scream`
+  2.Lalu klik kanan menuju `Follow lalu TCP Scream`
  <img src="Img/9_2.png"> 
-   <li>Setelah itu ubah Show Data > Raw
+  3. Setelah itu ubah Show Data > Raw
   <img src="Img/9_3.png"> 
-   </li>
-   <li>Lalu simpan file tersebut dengan nama "secret.zip" <br>
-    <img width="439" alt="9_4" src="https://user-images.githubusercontent.com/73489643/134729811-f47e1b48-0176-40e5-83a3-5fb30ddf8681.png">
-  </li>
   <br>
-    <li> Maka berikut, ini merupakan tampilan isi dari file "secret.zip" yang memerlukan password untuk membukanya <br>
+  4. Lalu simpan file tersebut dengan nama "secret.zip" <br>
+    <img width="439" alt="9_4" src="https://user-images.githubusercontent.com/73489643/134729811-f47e1b48-0176-40e5-83a3-5fb30ddf8681.png">
+  <br>
+  5. Maka berikut, ini merupakan tampilan isi dari file "secret.zip" yang memerlukan password untuk membukanya <br>
  <img width="605" alt="9_5" src="https://user-images.githubusercontent.com/73489643/134730508-b533295f-4235-4347-9d0c-a0017f09ace3.png">
-  </li>
 
 ## Soal 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! <br>
@@ -90,24 +88,29 @@ Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahas
 2.
   Lalu pada history bash dari history.txt terdapat file `bukanapaapa.txt` yang menunjukkan bahwa file tersebut merupakan passwordnya. <br>
   Untuk mendapatkan file tersebut maka filternya adalah :
-```
-  tp-data.command == "STOR bukanapaapa.txt"
-```
-  <img src="Img/10_2.png">
+ ```
+   ftp-data.command == "STOR bukanapaapa.txt"
+ ```
+  <img width="825" alt="10_2" src="https://user-images.githubusercontent.com/73489643/134732098-2733e1b2-5a05-4f49-a8e7-b736c792f926.png">
  <br>
 3.
   Lalu klik kanan menuju `Follow lalu TCP Scream`
   <img src="Img/10_3.png">
- <br>
+
  4.
   Setelah itu ubah Show Data > Raw <br>
   <img width="546" alt="10_4" src="https://user-images.githubusercontent.com/73489643/134731579-c9d50d57-ebff-462a-90f9-c195fd4c1136.png">
  
-  
-  
-  
- 
+5. Setelah itu simpan file bernama history.txt
+<img width="403" alt="10_5" src="https://user-images.githubusercontent.com/73489643/134732249-c0691fea-d09d-4907-b209-6092f17d43e6.png">
 
+6. Berikut ini merupakan isi dari history.txt, yang merupakan password untuk membuka file secret.zip.
+<img width="258" alt="10_6" src="https://user-images.githubusercontent.com/73489643/134732319-6bb6be04-2894-4ab4-bd1a-66543f7c37b3.png">
+
+7. Berikut ini merupakan isi dari file Wanted.pdf
+<img src="Img/10_7.png">
+  
+  
   
 ## Soal 11
 Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang berasal dari "port 80!".<br><br>
