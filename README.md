@@ -63,7 +63,7 @@ Simpan dan buka file tersebut!
  ftp-data.command == "STOR secret.zip"
 ```
 <img src="Img/9_1.png">
-
+<br>
   2.Lalu klik kanan menuju `Follow lalu TCP Scream`
  <img src="Img/9_2.png"> 
  <br>
