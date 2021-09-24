@@ -66,14 +66,15 @@ Simpan dan buka file tersebut!
 
   - Lalu klik kanan menuju `Follow lalu TCP Scream`
  <img src="Img/9_2.png"> 
-  <li>Setelah itu ubah `Show Data > Raw`
+   <li>Setelah itu ubah Show Data > Raw
   <img src="Img/9_3.png"> 
-  </li>
-   <li>Lalu simpan file tersebut dengan nama "secret.zip"
+   </li>
+   <li>Lalu simpan file tersebut dengan nama "secret.zip" <br>
     <img width="439" alt="9_4" src="https://user-images.githubusercontent.com/73489643/134729811-f47e1b48-0176-40e5-83a3-5fb30ddf8681.png">
   </li>
-    <li> Maka berikut, ini merupakan tampilan isi dari file "secret.zip" yang memerlukan password untuk membukanya
-   ![image](https://user-images.githubusercontent.com/73489643/134730005-8cf31285-e303-4406-b025-74983b9fb5ef.png)
+    <li> Maka berikut, ini merupakan tampilan isi dari file "secret.zip" yang memerlukan password untuk membukanya <br>
+ <img width="605" alt="9_5" src="https://user-images.githubusercontent.com/73489643/134730508-b533295f-4235-4347-9d0c-a0017f09ace3.png">
+
   </li>
 
   
