@@ -3,6 +3,23 @@
 ## Soal 1
 
 
+## Soal 6
+Diminta untuk mencari username dan password ketika melakukan login ke FTP Server
+Maka filernya adalah
+```
+ftp.request.command == "USER" || ftp.request.command == "PASS"
+```
+seperti berikut
+<img src="Img/6_1.png">
+
+Dan didapatkan username serta password sebagai berikut
+```
+Username : secretuser
+```
+```
+Password : aku.pengen.pw.aja
+```
+
 ## Soal 11
 Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang berasal dari "port 80!".<br><br>
 Step : Ketik `src port 80` pada filter di wireshark.
