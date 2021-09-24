@@ -10,7 +10,7 @@ Maka filternya adalah
 ftp.request.command == "USER" || ftp.request.command == "PASS"
 ```
 seperti berikut
-<img src="Img/6_1.png" width="400" height="600">
+<img src="Img/6_1.png">
 
 Dan didapatkan username serta password sebagai berikut
 ```
@@ -30,8 +30,17 @@ ftp-data contains “Real.pdf”
 <img src="Img/7_1.png">
 
 <br>
-2. Lalu klik kanan pada hasil yang paling atas setelah itu klik `Follow > TCP Scream`
+2. Lalu klik kanan pada hasil yang paling atas setelah itu klik "Follow > TCP Scream"
 <img src="Img/7_2.png">
+<br>
+3. Lalu ubah "Show Data As menjadi Raw"
+<img src="Img/7_3.png">
+<br>
+4. Lalu klik save as "Real.pdf"
+<img src="Img/7_4.png">
+<br>
+Berikut ini merupakan isi dari "Real.pdf"
+<img src="Img/7_5.png">
 
 
 ## Soal 11
