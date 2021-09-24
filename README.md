@@ -64,13 +64,13 @@ Simpan dan buka file tersebut!
 ```
 <img src="Img/9_1.png">
 
-  - Lalu klik kanan menuju `Folow lalu TCP Scream`
+  - Lalu klik kanan menuju `Follow lalu TCP Scream`
  <img src="Img/9_2.png"> 
   - Setelah itu ubah `Show Data as Raw`
   <img src="Img/9_3.png"> 
   - Lalu simpan file tersebut dengan nama `secret.zip`
-    <img src="Img/9_4.png"> 
-  - Maka berikut, ini merupakan tampilan isi dari file `secret.zip` yang memerlukan password untuk membukanya
+    <img width="439" alt="9_4" src="https://user-images.githubusercontent.com/73489643/134729811-f47e1b48-0176-40e5-83a3-5fb30ddf8681.png">
+    - Maka berikut, ini merupakan tampilan isi dari file `secret.zip` yang memerlukan password untuk membukanya
   <img src="Img/9_5.png">
   
 ## Soal 11
