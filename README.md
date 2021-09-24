@@ -31,7 +31,7 @@ ftp-data contains “Real.pdf”
 <img src="Img/7_1.png">
 
 <br>
-2. Lalu klik kanan pada hasil yang paling atas setelah itu klik Follow lalu TCP Scream
+2. Lalu klik kanan pada hasil yang paling atas setelah itu klik **Follow lalu TCP Scream <br>
 <img src="Img/7_2.png">
 <br>
 3. Lalu ubah Show Data As menjadi Raw
@@ -40,7 +40,7 @@ ftp-data contains “Real.pdf”
 4. Lalu klik save as Real.pdf
 <img src="Img/7_4.png">
 <br>
-Berikut ini merupakan isi dari Real.pdf
+Berikut ini merupakan isi dari **Real.pdf<br>
 <img src="Img/7_5.png">
 
 
@@ -52,6 +52,26 @@ Berikut ini adalah filternya
   ftp contains “RETR”
 ```
 <img src="Img/8.png">
+
+## Soal 9
+Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. <br>
+Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". <br>
+Simpan dan buka file tersebut!
+
+ - Maka kita memerlukan filter untuk menemukan file secret.zip tersebut dengan memasukkan filter sebagai berikut
+```
+ ftp-data.command == “STOR secret.zip
+```
+<img src="Img/9_1.png">
+
+  - Lalu klik kanan menuju `Folow lalu TCP Scream`
+ <img src="Img/9_2.png"> 
+  - Setelah itu ubah `Show Data as Raw`
+  <img src="Img/9_3.png"> 
+  - Lalu simpan file tersebut dengan nama `secret.zip`
+    <img src="Img/9_4.png"> 
+  - Maka berikut, ini merupakan tampilan isi dari file `secret.zip` yang memerlukan password untuk membukanya
+  <img src="Img/9_5.png">
   
 ## Soal 11
 Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang berasal dari "port 80!".<br><br>
