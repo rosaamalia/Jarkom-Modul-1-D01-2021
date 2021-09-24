@@ -66,6 +66,7 @@ Simpan dan buka file tersebut!
 
   2.Lalu klik kanan menuju `Follow lalu TCP Scream`
  <img src="Img/9_2.png"> 
+ <br>
   3. Setelah itu ubah Show Data > Raw
   <img src="Img/9_3.png"> 
   <br>
@@ -78,27 +79,24 @@ Simpan dan buka file tersebut!
 ## Soal 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! <br>
 Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"! <br>
-1.
-  Maka untuk membuka dan mencari password tersebut, maka digunakan filter sebagai berikut
+1.Maka untuk membuka dan mencari password tersebut, maka digunakan filter sebagai berikut
  ```
    ftp-data.command == "STOR history.txt"
  ```
   <img src="Img/10_1.png">
 <br>
 2.
-  Lalu pada history bash dari history.txt terdapat file `bukanapaapa.txt` yang menunjukkan bahwa file tersebut merupakan passwordnya. <br>
-  Untuk mendapatkan file tersebut maka filternya adalah :
- ```
-   ftp-data.command == "STOR bukanapaapa.txt"
- ```
+  Lalu pada history bash dari history.txt terdapat file bukanapaapa.txt yang menunjukkan bahwa file tersebut merupakan passwordnya. <br>
+  Untuk mendapatkan file tersebut maka filternya adalah 
+```
+ ftp-data.command == "STOR bukanapaapa.txt"
+```
   <img width="825" alt="10_2" src="https://user-images.githubusercontent.com/73489643/134732098-2733e1b2-5a05-4f49-a8e7-b736c792f926.png">
  <br>
-3.
-  Lalu klik kanan menuju `Follow lalu TCP Scream`
+3.Lalu klik kanan menuju Follow lalu TCP Scream
   <img src="Img/10_3.png">
 
- 4.
-  Setelah itu ubah Show Data > Raw <br>
+ 4.Setelah itu ubah Show Data > Raw <br>
   <img width="546" alt="10_4" src="https://user-images.githubusercontent.com/73489643/134731579-c9d50d57-ebff-462a-90f9-c195fd4c1136.png">
  
 5. Setelah itu simpan file bernama history.txt
