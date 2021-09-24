@@ -4,13 +4,13 @@
 
 
 ## Soal 6
-Diminta untuk mencari username dan password ketika melakukan login ke FTP Server
-Maka filernya adalah
+Diminta untuk mencari username dan password ketika melakukan login ke FTP Server <br>
+Maka filternya adalah
 ```
 ftp.request.command == "USER" || ftp.request.command == "PASS"
 ```
 seperti berikut
-<img src="Img/6_1.png">
+<img src="Img/6_1.png" width="400" height="600">
 
 Dan didapatkan username serta password sebagai berikut
 ```
@@ -19,6 +19,20 @@ Username : secretuser
 ```
 Password : aku.pengen.pw.aja
 ```
+
+## Soal 7
+Ada 500 file zip yang disimpan ke FTP Server. Diminta untuk menyimpan dan membuka file pdf.(Hint = nama pdf-nya "Real.pdf")
+Adapun step nya adalah sebagai berikut
+1. Masukkan filter 
+```
+ftp-data contains “Real.pdf”
+```
+<img src="Img/7_1.png">
+
+<br>
+2. Lalu klik kanan pada hasil yang paling atas setelah itu klik `Follow > TCP Scream`
+<img src="Img/7_2.png">
+
 
 ## Soal 11
 Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang berasal dari "port 80!".<br><br>
