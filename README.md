@@ -31,22 +31,22 @@ ftp-data contains “Real.pdf”
 <img src="Img/7_1.png">
 
 <br>
-2. Lalu klik kanan pada hasil yang paling atas setelah itu klik **Follow lalu TCP Scream**
+2. Lalu klik kanan pada hasil yang paling atas setelah itu klik **Follow lalu TCP Scream
 <img src="Img/7_2.png">
 <br>
-3. Lalu ubah **Show Data As menjadi Raw**
+3. Lalu ubah **Show Data As menjadi Raw
 <img src="Img/7_3.png">
 <br>
 4. Lalu klik save as **Real.pdf**
 <img src="Img/7_4.png">
 <br>
-Berikut ini merupakan isi dari **Real.pdf**
+Berikut ini merupakan isi dari **Real.pdf
 <img src="Img/7_5.png">
 
 
 ## Soal 8
-Diminta untuk mencari paket yang menunjukkan pengambilan dari file FTP tersebut <br>
-Karena perintahnya merupakan pengambilan maka memakai filter **RETR** <bR>
+Diminta untuk mencari paket yang menunjukkan pengambilan dari file FTP tersebut. <br>
+Karena perintahnya merupakan pengambilan maka memakai filter **RETR** <br>
 Berikut ini adalah filternya
 ```
   tp contains “RETR”
