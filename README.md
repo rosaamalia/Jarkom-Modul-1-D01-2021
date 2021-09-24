@@ -80,30 +80,29 @@ Simpan dan buka file tersebut!
 ## Soal 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! <br>
 Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"! <br>
-<li>
+1.
   Maka untuk membuka dan mencari password tersebut, maka digunakan filter sebagai berikut
  ```
    ftp-data.command == "STOR history.txt"
-  ```
+ ```
   <img src="Img/10_1.png">
-</li>
 <br>
-<li>
+2.
   Lalu pada history bash dari history.txt terdapat file `bukanapaapa.txt` yang menunjukkan bahwa file tersebut merupakan passwordnya. <br>
   Untuk mendapatkan file tersebut maka filternya adalah :
-  ```
+```
   tp-data.command == "STOR bukanapaapa.txt"
-  ```
+```
   <img src="Img/10_2.png">
-  </li><br>
-  <li>
+ <br>
+3.
   Lalu klik kanan menuju `Follow lalu TCP Scream`
   <img src="Img/10_3.png">
-  </li> <br>
-  <li>
-  Setelah itu ubah Show Data > Raw
+ <br>
+ 4.
+  Setelah itu ubah Show Data > Raw <br>
   <img width="546" alt="10_4" src="https://user-images.githubusercontent.com/73489643/134731579-c9d50d57-ebff-462a-90f9-c195fd4c1136.png">
-  </li><br>
+ 
   
   
   
