@@ -33,7 +33,7 @@ Catatan : untuk menjalankan filter `dst host kemenag.go.id`, jangan lupa untuk m
 maka program tidak berjalan atau paket yang akan diambil masih berupa kosongan.
 
 ## Soal 15
-Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang berasal dari "ip kalian!"
+Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang berasal dari "ip kalian!".<br><br>
 Step :
 1. Buka "Command Prompt" dan ketik `ipconfig`
 <img src="Img/15_1.PNG">
