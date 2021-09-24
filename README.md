@@ -33,7 +33,8 @@ ftp-data contains “Real.pdf”
 2. Lalu klik kanan pada hasil yang paling atas setelah itu klik `Follow lalu TCP Scream`
 <img src="Img/7_2.png">
 <br>
-3. Lalu ubah `ipconfig`
+3. Lalu ubah 
+``Show Data As menjadi Raw``
 <img src="Img/7_3.png">
 <br>
 4. Lalu klik save as `Real.pdf`
