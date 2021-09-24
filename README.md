@@ -60,7 +60,7 @@ Simpan dan buka file tersebut!
 
  - Maka kita memerlukan filter untuk menemukan file secret.zip tersebut dengan memasukkan filter sebagai berikut
 ```
- ftp-data.command == “STOR secret.zip
+ ftp-data.command == "STOR secret.zip"
 ```
 <img src="Img/9_1.png">
 
@@ -83,20 +83,30 @@ Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahas
 <li>
   Maka untuk membuka dan mencari password tersebut, maka digunakan filter sebagai berikut
  ```
-   ftp-data.command == “STOR history.txt
+   ftp-data.command == "STOR history.txt"
   ```
-  <img src="Img/10_1.PNG">
+  <img src="Img/10_1.png">
 </li>
 <br>
 <li>
   Lalu pada history bash dari history.txt terdapat file `bukanapaapa.txt` yang menunjukkan bahwa file tersebut merupakan passwordnya. <br>
   Untuk mendapatkan file tersebut maka filternya adalah :
   ```
-  tp-data.command == “STOR bukanapaapa.txt
+  tp-data.command == "STOR bukanapaapa.txt"
   ```
-  <img src="Img/10_1.PNG">
+  <img src="Img/10_2.png">
   </li><br>
   <li>
+  Lalu klik kanan menuju `Follow lalu TCP Scream`
+  <img src="Img/10_3.png">
+  </li> <br>
+  <li>
+  Setelah itu ubah Show Data > Raw
+  <img width="546" alt="10_4" src="https://user-images.githubusercontent.com/73489643/134731579-c9d50d57-ebff-462a-90f9-c195fd4c1136.png">
+  </li><br>
+  
+  
+  
  
 
   
