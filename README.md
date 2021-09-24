@@ -3,6 +3,7 @@
 ## Soal 1
 
 
+
 ## Soal 6
 Diminta untuk mencari username dan password ketika melakukan login ke FTP Server <br>
 Maka filternya adalah
@@ -21,8 +22,8 @@ Password : aku.pengen.pw.aja
 ```
 
 ## Soal 7
-Ada 500 file zip yang disimpan ke FTP Server. Diminta untuk menyimpan dan membuka file pdf.(Hint = nama pdf-nya "Real.pdf")
-Adapun step nya adalah sebagai berikut
+Ada 500 file zip yang disimpan ke FTP Server. Diminta untuk menyimpan dan membuka file pdf.(Hint = nama pdf-nya "Real.pdf") <br>
+Adapun step nya adalah sebagai berikut <br>
 1. Masukkan filter 
 ```
 ftp-data contains “Real.pdf”
@@ -30,20 +31,28 @@ ftp-data contains “Real.pdf”
 <img src="Img/7_1.png">
 
 <br>
-2. Lalu klik kanan pada hasil yang paling atas setelah itu klik `Follow lalu TCP Scream`
+2. Lalu klik kanan pada hasil yang paling atas setelah itu klik **Follow lalu TCP Scream**
 <img src="Img/7_2.png">
 <br>
-3. Lalu ubah 
-``Show Data As menjadi Raw``
+3. Lalu ubah **Show Data As menjadi Raw**
 <img src="Img/7_3.png">
 <br>
-4. Lalu klik save as `Real.pdf`
+4. Lalu klik save as **Real.pdf**
 <img src="Img/7_4.png">
 <br>
-Berikut ini merupakan isi dari `Real.pdf`
+Berikut ini merupakan isi dari **Real.pdf**
 <img src="Img/7_5.png">
 
 
+## Soal 8
+Diminta untuk mencari paket yang menunjukkan pengambilan dari file FTP tersebut <br>
+Karena perintahnya merupakan pengambilan maka memakai filter **RETR** <bR>
+Berikut ini adalah filternya
+```
+  tp contains “RETR”
+```
+<img src="Img/8.png">
+  
 ## Soal 11
 Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang berasal dari "port 80!".<br><br>
 Step : Ketik `src port 80` pada filter di wireshark.
