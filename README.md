@@ -31,7 +31,7 @@ ftp-data contains “Real.pdf”
 <img src="Img/7_1.png">
 
 <br>
-2. Lalu klik kanan pada hasil yang paling atas setelah itu klik **Follow lalu TCP Scream <br>
+2. Lalu klik kanan pada hasil yang paling atas setelah itu klik Follow lalu TCP Scream <br>
 <img src="Img/7_2.png">
 <br>
 3. Lalu ubah Show Data As menjadi Raw
@@ -40,7 +40,7 @@ ftp-data contains “Real.pdf”
 4. Lalu klik save as Real.pdf
 <img src="Img/7_4.png">
 <br>
-Berikut ini merupakan isi dari **Real.pdf<br>
+Berikut ini merupakan isi dari Real.pdf<br>
 <img src="Img/7_5.png">
 
 
@@ -66,12 +66,16 @@ Simpan dan buka file tersebut!
 
   - Lalu klik kanan menuju `Follow lalu TCP Scream`
  <img src="Img/9_2.png"> 
-  - Setelah itu ubah `Show Data as Raw`
+  <li>Setelah itu ubah `Show Data > Raw`
   <img src="Img/9_3.png"> 
-  - Lalu simpan file tersebut dengan nama `secret.zip`
+  </li>
+   <li>Lalu simpan file tersebut dengan nama "secret.zip"
     <img width="439" alt="9_4" src="https://user-images.githubusercontent.com/73489643/134729811-f47e1b48-0176-40e5-83a3-5fb30ddf8681.png">
-    - Maka berikut, ini merupakan tampilan isi dari file `secret.zip` yang memerlukan password untuk membukanya
-  <img src="Img/9_5.png">
+  </li>
+    <li> Maka berikut, ini merupakan tampilan isi dari file "secret.zip" yang memerlukan password untuk membukanya
+   ![image](https://user-images.githubusercontent.com/73489643/134730005-8cf31285-e303-4406-b025-74983b9fb5ef.png)
+  </li>
+
   
 ## Soal 11
 Diminta untuk menfilter sehingga wireshark hanya mengambil paket yang berasal dari "port 80!".<br><br>
