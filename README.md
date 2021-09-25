@@ -1,8 +1,70 @@
 # Jarkom-Modul-1-D01-2021
 
 ## Soal 1
+Sebutkan webserver yang digunakan pada "ichimarumaru.tech" <br>
+Menggunakan filter
+```
+http.host == "ichimarumaru.tech"
+```
+![image](https://user-images.githubusercontent.com/68428942/134757523-108dd66b-a379-4945-b178-3951073adefd.png)
 
+Kemudian klik kanan paket yang dipilih > Follow > TCP Stream
+![image](https://user-images.githubusercontent.com/68428942/134757559-33d45f7d-6c64-48aa-9d09-3bac7f3a8bf7.png)
 
+Akan muncul kotak dialog yang menampilkan informasi webserver yang digunakan
+![image](https://user-images.githubusercontent.com/68428942/134757586-0c902d60-b172-4b7d-bb4a-021bf01d049b.png)
+
+## Soal 2
+Temukan paket dari **web-web** yang menggunakan **basic authentication method**<br>
+Menggunakan filter
+```
+http.authbasic
+```
+Dan akan mendapatkan 3 paket yang sesuai dengan filter yang diterapkan
+![image](https://user-images.githubusercontent.com/68428942/134757681-d3af935e-dbbb-4567-8d26-57572ca1bd30.png)
+
+## Soal 3
+Ikuti perintah di "basic.ichimarumaru.tech", Username dan password bisa didapatkan dari file *.pcapng*<br>
+Untuk mencari username dan password, menggunakan filter sebagai berikut.<br>
+```
+http.host contains basic.ichimarumaru.tech
+```
+![image](https://user-images.githubusercontent.com/68428942/134757814-c968b377-9611-43e9-a26e-72fa3e942512.png)
+
+Kemudian pilih baris `Hyper Transfer Protocol` > Authorization, dan di bagian credential akan ada informasi username dan password untuk mengakses "basic.ichimarumaru.tech"<br>
+![image](https://user-images.githubusercontent.com/68428942/134757885-8919b228-1e2a-4772-9f27-e15978a4c793.png)
+```
+username: kuncimenujulautan
+password: tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
+```
+Akses web dan masukkan username password yang telah didapatkan, kemudian isi jawaban soal yang tertera.
+![image](https://user-images.githubusercontent.com/68428942/134757953-56575bd4-12ed-4ffc-88e9-e2469903b0c1.png)
+
+## Soal 4
+Temukan paket **mysql** yang mengandung perintah **query select** <br>
+Dengan menggunakan filter
+```
+mysql.command == 3 and frame matches "select"
+```
+Kemudian, kita akan mendapatkan 3 paket sesuai dengan filter yang diterapkan.
+![image](https://user-images.githubusercontent.com/68428942/134758023-70fdfe7c-289b-414a-b2e0-acc9199a89ba.png)
+
+## Soal 5
+Login ke "portal.ichimarumaru.tec"h kemudian ikuti perintahnya! Username dan password bisa didapat dari **query insert** pada table users dari file .pcap<br>
+Menggunakan filter
+```
+tcp contains users
+```
+Kemudian, ke bagian Request Command Query
+![image](https://user-images.githubusercontent.com/68428942/134758129-c676dac1-8d94-41da-aa0a-7bef2a7b82c7.png)
+
+Dan mendapatkan informasi username dan password
+```
+username : akakanomi
+password: pemisah4lautan
+```
+Akses web dengan username dan password yang telah didapatkan, kemudian isi jawaban soal yang tertera.
+![image](https://user-images.githubusercontent.com/68428942/134758240-62737f63-4390-4dee-85a9-b330113cc2e4.png)
 
 ## Soal 6
 Diminta untuk mencari username dan password ketika melakukan login ke FTP Server <br>
