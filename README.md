@@ -208,7 +208,7 @@ Step :
 <img src="Img/15_1.PNG">
 <img src="Img/15_2.PNG">
 
-2. Copy "ip address" pada `IPv4 Address : 192.168.0.113` pada `ipconfig`, dan paste ke filter expression pada wireshark dengan command `src host 192.168.0.113`.
+2. Copy yang bagian "IPv4 Address Wifi" `(192.168.0.113)` pada `ipconfig`, dan paste ke filter expression pada wireshark dengan command `src host 192.168.0.113`.
 <img src="Img/15_3.PNG">
 <img src="Img/15_4.PNG">
 
